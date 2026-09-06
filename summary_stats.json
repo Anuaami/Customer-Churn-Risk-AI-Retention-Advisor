@@ -1,0 +1,111 @@
+{
+  "total_customers": 7043,
+  "overall_churn_rate": 26.536987079369588,
+  "churn_by_contract": {
+    "Month-to-month": 42.70967741935484,
+    "One year": 11.269517990495586,
+    "Two year": 2.831858407079646
+  },
+  "churn_by_internet": {
+    "DSL": 18.95910780669145,
+    "Fiber optic": 41.89276485788114,
+    "No": 7.404980340760157
+  },
+  "tenure_churn_corr": -0.3522286701130772,
+  "blank_total_charges": 11,
+  "baseline_test_acc": 80.62455642299503,
+  "baseline_test_rec": 55.88235294117647,
+  "baseline_test_prec": 65.93059936908517,
+  "baseline_test_f1": 60.492040520984084,
+  "baseline_test_auc": 0.8421710713270816,
+  "complex_train_acc": 83.12034078807243,
+  "complex_test_acc": 80.69552874378992,
+  "complex_test_rec": 50.26737967914438,
+  "complex_test_prec": 68.61313868613139,
+  "complex_test_f1": 58.0246913580247,
+  "complex_test_auc": 0.8425689116226202,
+  "top_features": [
+    {
+      "feature": "tenure",
+      "importance": 0.21831364387757377
+    },
+    {
+      "feature": "TotalCharges_Clean",
+      "importance": 0.13521406656181226
+    },
+    {
+      "feature": "MonthlyCharges",
+      "importance": 0.10347526688144663
+    },
+    {
+      "feature": "InternetService_Fiber optic",
+      "importance": 0.08655746324810511
+    },
+    {
+      "feature": "PaymentMethod_Electronic check",
+      "importance": 0.0753496618747748
+    },
+    {
+      "feature": "Contract_Two year",
+      "importance": 0.06632422630944713
+    },
+    {
+      "feature": "Contract_One year",
+      "importance": 0.03727209181119724
+    },
+    {
+      "feature": "OnlineSecurity_Yes",
+      "importance": 0.03398633920515473
+    },
+    {
+      "feature": "TechSupport_Yes",
+      "importance": 0.022911441501092675
+    },
+    {
+      "feature": "PaperlessBilling_Yes",
+      "importance": 0.019257742470097476
+    }
+  ],
+  "segment_stats": [
+    {
+      "Cluster": 0,
+      "Customer_Count": 1241,
+      "Avg_Tenure": 54.482675261885575,
+      "Avg_MonthlyCharges": 35.96220789685737,
+      "Avg_TotalCharges": 1967.8278001611602,
+      "Avg_Churn_Prob": 0.049281353004726115,
+      "Actual_Churn_Rate": 4.10958904109589,
+      "Total_Monthly_Revenue": 44629.1
+    },
+    {
+      "Cluster": 1,
+      "Customer_Count": 1748,
+      "Avg_Tenure": 13.311212814645309,
+      "Avg_MonthlyCharges": 36.221024027459954,
+      "Avg_TotalCharges": 528.2010297482838,
+      "Avg_Churn_Prob": 0.1792494391506853,
+      "Actual_Churn_Rate": 15.617848970251716,
+      "Total_Monthly_Revenue": 63314.35
+    },
+    {
+      "Cluster": 2,
+      "Customer_Count": 2094,
+      "Avg_Tenure": 55.60792741165234,
+      "Avg_MonthlyCharges": 92.98440783190067,
+      "Avg_TotalCharges": 5211.306064947469,
+      "Avg_Churn_Prob": 0.17503870861817863,
+      "Actual_Churn_Rate": 15.425023877745941,
+      "Total_Monthly_Revenue": 194709.35
+    },
+    {
+      "Cluster": 3,
+      "Customer_Count": 1960,
+      "Avg_Tenure": 10.543877551020408,
+      "Avg_MonthlyCharges": 78.29785714285714,
+      "Avg_TotalCharges": 907.3082142857144,
+      "Avg_Churn_Prob": 0.5790679883906226,
+      "Actual_Churn_Rate": 62.34693877551021,
+      "Total_Monthly_Revenue": 153463.8
+    }
+  ]
+}
